@@ -35,31 +35,31 @@ func main() {
 
 	if len(arg) < 2 {
 		fmt.Println("To use the application run it like: ")
-		fmt.Println("1 for anime list | 2 for manga list")
-		fmt.Println("Example: " + arg[0] + " 1 username")
+		fmt.Println("anime for anime list | manga for manga list")
+		fmt.Println("Example: " + arg[0] + " anime username")
 		return
 	}
 
 	if arg[1] == "help" || arg[1] == "-h" || arg[1] == "--help" {
 		fmt.Println("To use the application run it like: ")
-		fmt.Println("1 for anime list | 2 for manga list")
-		fmt.Println("Example: " + arg[0] + " 1 username")
+		fmt.Println("anime for anime list | manga for manga list")
+		fmt.Println("Example: " + arg[0] + " anime username")
 		return
 	}
 
-	if arg[1] != "1" && arg[1] != "2" {
+	if arg[1] != "anime" && arg[1] != "manga" {
 		fmt.Println("Please add argument for list type")
-		fmt.Println("1 for anime list | 2 for manga list")
-		fmt.Println("Example: " + arg[0] + " 1 username")
+		fmt.Println("anime for anime list | manga for manga list")
+		fmt.Println("Example: " + arg[0] + " anime username")
 		return
 	}
 
 	var listType string
 
 	switch arg[1] {
-	case "1":
+	case "anime":
 		listType = "rw"
-	case "2":
+	case "manga":
 		listType = "rm"
 	default:
 		fmt.Println("No valid list type was selected")

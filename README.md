@@ -1,13 +1,12 @@
-### malRSS
+### MALrss
 
-CLI tool to read your Recent MAL Anime or Manga list updates from MAL RSS feed.
+CLI tool that allow you to read your Myanimelist profile's recent anime/manga list updates in terminal.
 
-
-1 for anime list <br>
-2 for manga list <br>
+anime for anime list <br>
+manga for manga list <br>
 
 Username as your MAL account username.
 
 ```
-./malrss 1 username
+./malrss anime username
 ```
