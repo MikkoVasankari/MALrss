@@ -1,6 +1,6 @@
 ### malRSS
 
-CLI tool to read your Recent MAL Anime or Manga list updates.
+CLI tool to read your Recent MAL Anime or Manga list updates from MAL RSS feed.
 
 
 1 for anime list <br>
